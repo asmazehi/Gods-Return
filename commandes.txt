@@ -1,0 +1,5 @@
+compilation:
+gcc camera.c en.c collision_parfaite.c enigme.c enigme2.c 
+entity.c fonctions.c gestiontemp.c main.c perso.c -o prog -lSDL -lSDL_image -lSDL_mixer -lSDL_ttf
+éxécution:
+./prog
